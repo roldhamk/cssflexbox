@@ -27,9 +27,11 @@
     display: flex; /* applies flex to class container */
     min-height: 100vh; /*extends the viewpoint height of the container to fill the whole screen */
     flex-wrap: wrap; /* wrapping the container - when making screen bigger boxes will space out with 400px */
+    flex-wrap: nowrap; /* will remove all wrapping */
+    flex-wrap: wrap-reverse; /* will reverse the order of boxes and wrap, 10 -1 */
 }
 
 .box {
-    width: 33.3333%; /* setting width for each box to 400px */
+    width: 33.3333%; /* will set all boxes to a third, no matter how big or small screen is*/
     
 }
