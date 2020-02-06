@@ -26,6 +26,9 @@
 .container {
     display: flex; /* applies flex to class container */
     min-height: 100vh; /*extends the viewpoint height of the container to fill the whole screen */
+    flex-direction: row; /* flex direction is set to row as default */
+    flex-direction: column; /* will set direction into stacked columns */
+    flex-direction: row-reverse; /* will set direction to rows, reversed */
     flex-direction: column-reverse;  /* will set direction into stacked columns reversed */
 
 }
