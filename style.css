@@ -25,11 +25,4 @@
 
 .container {
     display: flex; /* applies flex to class container */
-    min-height: 100vh; /*extends the viewpoint height of the container to fill the whole screen */
-    flex-wrap: wrap; /* wrapping the container - when making screen bigger boxes will space out with 400px */
-    flex-direction: column;
 }
-
- .box {
-    width: 33.3333%; /* setting width for each box to 400px */
- }
