@@ -30,6 +30,7 @@
     flex-direction: column;
 }
 
- .box {
+.box {
     width: 33.3333%; /* setting width for each box to 400px */
- }
+    
+}
