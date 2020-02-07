@@ -27,3 +27,17 @@
 .container {
     display: flex; /* applies flex to class container */
 }
+
+.box {
+    flex: 1; 
+}
+
+.box4 {
+    flex: 7; 
+}
+
+.box7 {
+    flex: 3;
+}
+
+/* both boxes will take up as much space as possible, 4 taking up more before of the bigger number */

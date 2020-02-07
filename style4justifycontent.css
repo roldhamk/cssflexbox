@@ -25,7 +25,7 @@
 
 .container {
     display: flex; /* applies flex to class container */
-    flex-direction: column;
+    flex-direction: column; 
     min-height: 100vh;
     justify-content: center; /* aligns everything to the center of the page no matter the size of window */
     justify-content: flex-end; /* aligns everything to the end of the page no matter the size of window */
@@ -37,3 +37,5 @@
 .box {
     font-size: 20px;
 }
+
+/* adding flex-direction: column, min-height and reducing font size will make small, stacked columns that you can then justify */ 
